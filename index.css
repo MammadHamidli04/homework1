@@ -41,7 +41,7 @@ ul .b {
 }
 body {
   color: #777;
-  background: url("/concrete_seamless.png");
+  background: url("./concrete_seamless.png");
 }
 .main {
   float: left;
