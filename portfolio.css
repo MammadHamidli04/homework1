@@ -31,9 +31,12 @@ li {
   list-style: none;
   clear: both;
 }
-ul .b{
-  border-left: 1px solid grey;
-  padding-left: 15px;
+li + li::before {
+  content: "";
+  border-left: 1px solid gray;
+  margin-right: 10px;
+  height: 10px;
+  display: inline-block;
 }
 .about {
   float: right;
